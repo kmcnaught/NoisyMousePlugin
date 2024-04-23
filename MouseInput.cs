@@ -56,12 +56,6 @@ namespace MouseInput
 
         #endregion
 
-        #region Properties
-
-        public bool KalmanFilterSupported { get; private set; }
-
-        #endregion
-
         #region Events
 
         public event EventHandler<Exception> Error;
