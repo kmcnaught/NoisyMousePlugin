@@ -5,7 +5,6 @@ using System.ComponentModel;
 using System.Threading;
 using JuliusSweetland.OptiKey.Contracts;
 using System.Runtime.InteropServices;
-using System.IO;
 using JuliusSweetland.OptiKey.Static;
 
 namespace MouseInput
