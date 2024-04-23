@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Reactive;
 using System.Windows;
-using System.Linq;
-using System.Diagnostics;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading;
 using JuliusSweetland.OptiKey.Contracts;
@@ -31,6 +28,8 @@ namespace MouseInput
 
         public MouseInput()
         {
+
+            // Set scale of noise proportional to screen
             noiseScale = (int)(0.1 * Graphics.PrimaryScreenHeightInPixels);
 
             pollWorker = new BackgroundWorker();
